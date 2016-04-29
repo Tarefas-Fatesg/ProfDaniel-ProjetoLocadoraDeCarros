@@ -1,2 +1,0 @@
-# ProfDaniel-ProjetoLocadoraDeCarros
-Recuperação 
