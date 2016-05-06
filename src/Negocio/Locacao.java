@@ -19,5 +19,61 @@ public class Locacao {
     private Ocorrencia ocorrencia[];
     private Veiculo veiculo;
     private Itinerario itinerario;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public Calendar getDataLoc() {
+        return dataLoc;
+    }
+
+    public void setDataLoc(Calendar dataLoc) {
+        this.dataLoc = dataLoc;
+    }
+
+    public Calendar getDataDev() {
+        return dataDev;
+    }
+
+    public void setDataDev(Calendar dataDev) {
+        this.dataDev = dataDev;
+    }
+
+    public float getSubtotal() {
+        return subtotal;
+    }
+
+    public void setSubtotal(float subtotal) {
+        this.subtotal = subtotal;
+    }
+
+    public Ocorrencia[] getOcorrencia() {
+        return ocorrencia;
+    }
+
+    public void setOcorrencia(Ocorrencia[] ocorrencia) {
+        this.ocorrencia = ocorrencia;
+    }
+
+    public Veiculo getVeiculo() {
+        return veiculo;
+    }
+
+    public void setVeiculo(Veiculo veiculo) {
+        this.veiculo = veiculo;
+    }
+
+    public Itinerario getItinerario() {
+        return itinerario;
+    }
+
+    public void setItinerario(Itinerario itinerario) {
+        this.itinerario = itinerario;
+    }
     
 }

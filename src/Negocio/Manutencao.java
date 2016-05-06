@@ -14,4 +14,20 @@ import java.util.Calendar;
 public class Manutencao {
     private Calendar data;
     private String descricao;
+
+    public Calendar getData() {
+        return data;
+    }
+
+    public void setData(Calendar data) {
+        this.data = data;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 }

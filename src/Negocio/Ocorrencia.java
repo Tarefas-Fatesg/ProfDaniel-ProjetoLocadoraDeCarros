@@ -16,4 +16,36 @@ class Ocorrencia {
     private Calendar dataOc;
     private String descricao;
     private float valorOc;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public Calendar getDataOc() {
+        return dataOc;
+    }
+
+    public void setDataOc(Calendar dataOc) {
+        this.dataOc = dataOc;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public float getValorOc() {
+        return valorOc;
+    }
+
+    public void setValorOc(float valorOc) {
+        this.valorOc = valorOc;
+    }
 }

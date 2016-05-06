@@ -13,6 +13,30 @@ class Itinerario {
     private Estado origem;
     private Estado destino;
     private float kmTotal;
+
+    public Estado getOrigem() {
+        return origem;
+    }
+
+    public void setOrigem(Estado origem) {
+        this.origem = origem;
+    }
+
+    public Estado getDestino() {
+        return destino;
+    }
+
+    public void setDestino(Estado destino) {
+        this.destino = destino;
+    }
+
+    public float getKmTotal() {
+        return kmTotal;
+    }
+
+    public void setKmTotal(float kmTotal) {
+        this.kmTotal = kmTotal;
+    }
     
     
     
